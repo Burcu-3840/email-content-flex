@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flex.css">
+    <script src="https://kit.fontawesome.com/b297acd46c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     
+    <div class="side1">
+        <i  class="fas fa-bars" style="font-size: 2vw; margin: 1.2vw;"></i>
+        <i id="sideicon" class="fas fa-home" style="font-size: 2vw; margin: 1vw;"></i>
+        <i id="sideicon" class="far fa-envelope" style="font-size: 2vw; margin: 1vw;"></i>
+        <i id="sideicon" class="far fa-share-square" style="font-size: 2vw; margin: 1vw;"></i>
+        <i id="sideicon" class="far fa-trash-alt" style="font-size: 2vw; margin: 1vw;"></i>
+        <i id="sideicon" class="fas fa-bolt" style="font-size: 2vw; margin: 1.2vw;"></i>
+        <i id="sideicon" class="far fa-gem" style="font-size: 2vw; margin: 1vw;" ></i>
+        <i id="sideicon" class="far fa-envelope-open" style="font-size: 2vw; margin: 1vw;"></i>
+        <i id="sideicon" class="fas fa-star" style="font-size: 2vw; margin:1vw;"></i> <br> <br><br><br><br><br><br><br>
+        <i id="sideicon" class="far fa-check-circle" style="font-size:2vw; margin:1vw;"></i>
+    </div>
+    
+    <div class="side2">
+       <input class="side2Button" type="button" value=" + New Mail" ></button>
+        <ul>
+            <li id="sideHead" class="side2list1">
+                <i class="far fa-folder" style="font-size: 1vw;"></i> Folders</li>
+            <li class="side2list1"><i class="far fa-envelope"></i> Inbox  
+                <i class="fas fa-comments"  style="color: red; font-size: 1vw; margin-left: 7vw;">12</i> </li>
+            <li class="side2list1"><i class="fas fa-share"></i> Sent</li>
+            <li class="side2list1"><i class="fas fa-exclamation"></i> Important</li>
+            <li class="side2list1" ><i class="far fa-envelope-open"></i> Drafts</li>
+            <li class="side2list1"><i class="fas fa-bug"></i> Spam</li>
+            <li class="side2list1"><i class="far fa-trash-alt"></i> Trash</li>
+            <li id="sideHead" class="side2list" >
+                <i class="fas fa-circle" style="font-size: 0.5vw; color: rgb(94, 189, 94);"></i> Online Friends</li>
+            <li class="side2list"><img src="./images/life3.jpg" style="width:3vw; height:3vw; border-radius:2vw; position: relative; margin-left:-4vw; margin-top:-0.8vw;">
+                <i class="fas fa-circle class="fas fa-circle style=" color: rgb(20, 114, 20); font-size: 0.8vw;  position: relative; margin-left:-1.5vw; margin-top: -0.5vw;">
+                </i><b> Ahmet Sahin</b></li>
+            <li class="side2list"><i class="fas fa-user-circle" style="font-size: 3vw; color:rgb(59, 163, 197); position: relative;
+                margin-left:-5vw; margin-top: -0.8vw;"></i>
+                <i class="fas fa-circle" style="font-size: 0.8vw; position: relative; margin-left: -1vw; margin-top: -0.7vw; color: rgb(114, 185, 114);"></i><b> Ayse Un</b></li>                                                           
+            <li class="side2list"><img src="./images/life4.jpg" style="width:3vw; height:3vw; border-radius:2vw; position:relative; margin-left:-3vw; margin-top:-0.8vw; ">
+                
+                <i class="fas fa-circle"style="color: rgb(92, 201, 92); font-size: 0.8vw; position:relative; margin-left:-1.5vw; margin-top: -0.5vw;"></i><b> Hasan Yilmaz</b></li>
+                <li class="side2list1" style="text-align: center;"><i class="fas fa-tags" style="color:gray;"></i> Labels </li>  
+                <button type="button" value="important" id="labels"
+                style=" color: rgb(107, 36, 107); background-color: plum;"><i class="fas fa-tag"></i> Important</button>
+                <button type="button" value="important" id="labels"
+                style="color: red; background-color: rgb(253, 153, 153);"><i class="fas fa-tag"></i> New</button>
+                <button type="button" value="important" id="labels"
+                style="color: blue; background-color: rgb(151, 151, 252);"><i class="fas fa-tag"></i> Old</button>
+                <button type="button" value="important" id="labels"
+                style="color:green; background-color: rgb(118, 201, 118);"><i class="fas fa-tag"></i> Priority</button>
+       
+            </ul>
+
+
+    </div>
+
+    <div class="header" >
+        <div class="headerHead" ><b>Inbox</b></div>
+        <span id="headerIcon" >English</span>
+        <i id="headerIcon" class="fas fa-globe"></i>
+        <i id="headerIcon" class="fas fa-mail-bulk"></i>
+        <i  id="headerIcon" class="fas fa-circle" style="color:red; font-size: 0.5vw; margin-left: 65.5vw; position: absolute; " >  </i>
+        <i id="headerIcon" class="far fa-bell"></i>
+       </div>  
+
+  <div class="friendsMainBox">
+      <ul class="friends">
+             <li class="person1">
+                <input id="person1idsol" type="checkbox">
+                <i id="person1idsol" class="fas fa-sort-down"></i>
+                <i id="person1id" class="fas fa-undo-alt"></i>
+                <i id="person1id" class="far fa-eye"></i>
+                <i id="person1id" class="far fa-trash-alt"></i>
+             </li>
+        <div class="people">
+            <li class="person">
+
+              <img src="./images/life4.jpg" id="friendsImage"> 
+             
+              <span class="friendsName" ><b>John Due</b></span>
+              <p>Hello world....</p>
+              <input id="friendsicon" type="checkbox">
+              <i id="friendsicon" class="far fa-star"></i>
+              <i id="friendsicon" class="fas fa-paperclip"></i>
+              <time id="friendsicon" class="time">3:30AM</time>
+              
+            </li>
+            
+            <li class="person">
+                
+                <img src="./images/students2.jpg" id="friendsImage" > 
+               
+                <span class="friendsName"><b>Oily Due</b></span>
+                <p>How Are You...</p>
+                <input id="friendsicon" type="checkbox">
+                <i id="friendsicon" class="fas fa-star" style="color: rgb(253, 182, 48);"></i>
+                <i id="friendsicon" class="fas fa-paperclip"  ></i>
+                <time id="friendsicon" class="time" >8:30PM</time>
+            </li>
+            <li class="person">
+                <img src="./images/students3.jpg"  id="friendsImage"> 
+                <span class="friendsName"><b>Harry Potter</b></span>
+                <p>What Are You Doing...</p>
+                
+                <input id="friendsicon" type="checkbox">
+                <i id="friendsicon"  class="fas fa-star" style="color: rgb(253, 182, 48);"></i>
+                <i id="friendsicon" class="fas fa-paperclip"></i>
+                <time id="friendsicon" class="time" >9:30AM</time>
+            </li>
+            </div>
+        </ul>
+    </div>  
+        <div class="information">
+          <section class="searchbox" >
+            <i id="searchBoxIcon" class="fas fa-search"> </i> 
+            <p class="searchBoxText" >Search here please</p>
+          </section>  <br><br>
+          <date style=" margin-left: 3vw;">Dec 1,2018</date>
+          <p><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quas rem officia hic eaque. Quas ex nisi corrupti non, sequi dolor soluta obcaecati numquam nesciunt nihil tempora rem laudantium cumque eum atque sunt culpa corporis velit dolorum? </b></p>
+           <p><b>From:</b>email@email.com</p>
+           <p>Hello Mr or Mrs!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusantium quos quae, placeat voluptates quam minus magnam dolor odit eveniet in non necessitatibus voluptatum recusandae tempora, quaerat, adipisci nobis! Nostrum? Lorem ipsum dolor sit amet consectetur adipisicing  Perspiciatis harum alias molestiae tempore nostrum, debitis nesciunt beatae aspernatur. Libero cumque natus ratione cupiditate? Quidem incidunt nobis beatae quibusdam illum impedit.</p>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ipsa voluptatibus sed similique sit hic facere, excepturi ducimus delectus provident at. Quia harum nulla, iste architecto voluptate esse in enim fugit deleniti amet nemo rem maxime vitae reiciendis labore minima.</p>
+           <p>Best Wishes...</p>
+           <p>MR.Robot</p>
+           <i class="fas fa-paperclip"> Attachment(80MB)</i>
+             <button type="button" value="View All" 
+             style="margin-left: 3vw; color: blue; background-color: lightblue; cursor: pointer;" >   View All</button>
+             <button type="button" value="Download All" 
+             style="margin-left: 3vw; color: green; background-color: lightgreen; cursor: pointer;">Download All</button>
+             <br><img src="./images/balon.jpg.jpg" id="contentimg">
+             <img src="./images/life3.jpg" id="contentimg">
+             <img src="./images/life4.jpg" id="contentimg">
+             <img src="./images/students2.jpg" id="contentimg">
+            <br>
+            <button type="button" value="Reply" 
+            style=" padding: 0.8vw; margin-left: 10vw; background-color: mediumorchid; 
+            border-radius: 1vw; box-shadow: 0.3vw 0.3vw  plum; cursor: pointer;">
+            <i class="fas fa-reply"></i> Reply</button>
+
+            <button type="button" value="Forward"
+            style="margin: 5vw; padding: 0.8vw; background-color: darkcyan; border-radius: 1vw;
+            box-shadow: 0.3vw 0.3vw rgb(75, 226, 226); cursor: pointer; outline: none;"> <i class="fas fa-share"></i> Forward</button>
+        </div>
+    
+</body>
+</html>
